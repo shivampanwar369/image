@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WELCOME TO OUR WORLD</title>
+<style>
+	body{
+		background: #42bcf5;
+		font-family:arial,helvetica,sans serif;
+	    }
+    .nav li {
+        display: inline-block;
+        font-size: 20px;
+        padding: 20px;
+        }
+      
+    .list12{
+       column-count: 3;
+       font-size:20px;
+       padding:20px;
+        }
+        .note{
+        	column-count:2;
+        	font-size:20px;
+        	height:15
+        	0px;
+        	width:1000px;
+        	padding:50px;
+        	background-color: red;
+        	display: inline-block;
+        	margin-left:90px;
+        }
+        .img{
+        	float:right;
+        	margin-top: 10px;
+        	margin-right:90px;
+        	border:solid black;
+        }
+        div{
+        	
+        	padding:5px;
+        }
+        .clear{
+        	overflow:auto;
+        	background-repeat:no-repeat;
+        }
+        .img2{
+        	float:right;
+        } 
+        .AE{
+        	float:left;	
+        }      
+       .dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration:none ;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+.img1{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+}
+h1{
+	color:white;
+	text-shadow: 1px 1px 2px black, 0 0 20px blue, 0 0 5px darkblue; 
+}
+* {
+  box-sizing: border-box;
+}
+
+/* style the container */
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 0 30px 0;
+} 
+
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+/* style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Two-column layout */
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* vertical line */
+.vl {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid #ddd;
+  height: 175px;
+}
+
+/* text inside the vertical line */
+.vl-innertext {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+/* hide some text on medium and large screens */
+.hide-md-lg {
+  display: none;
+}
+
+/* bottom container */
+.bottom-container {
+  text-align: center;
+  background-color: #666;
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+  /* hide the vertical line */
+  .vl {
+    display: none;
+  }
+  /* show the hidden text on small screens */
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}
+.end{
+	background-color: black;
+}
+
+
+</style>
+</head>
+    <body>
+
+    	<div>
+    		<a href="foodzone.html"><img src="food.png"width="150px"height="70px">
+    <ul class="nav">
+     	<li><a href="#home.html">Home</a></li>                 
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact </a></li>
+    </ul>
+    <hr>
+    <img src="food.png" width="1250px" height="250px">
+    <ul> 
+    <div class="list12">                                                              
+        <h1>DRINKS</h1>                                                             
+        <li><a href="shakes.html">Shakes</li></a>                     
+        <li><a href="juice.html">Juice</li></a>
+     	<li><a href="cold drink.html">Cold Drinks</a></li>
+   		<h1>Food</h1>
+     	<li><a href="Breakfast.html">Breakfast</a></li>
+        <li><a href="Lunch.html">Lunch</a></li>
+     	<li><a href="Dinner.html">Dinner</a></li>
+     	<h1>Fast Food</h1>
+     	<li><a href="burger.html">Burger</a></li>
+     	<li><a href="Momos.html">Momos</a></li>
+     	<li><a href="french.html">french fries</a></li>
+     </li></li></ul>
+        <br>
+     	<hr>
+     	<div>
+
+     	<div class="note">
+     	<div>NUTRITION NOTES
+Eating good food, especially with family and friends, is one of the pleasures of life.We all know that people who eat healthy, balanced diets are likely to have: plenty of energy to work and enjoy themselves; fewer infections and other illnesses<br>
+NUTRITION NOTES
+Eating good food, especially with family and friends, is one of the pleasures of life.We all know that people who eat healthy, balanced diets are likely to have: plenty of energy to work and enjoy themselves; fewer infections and other illnesses.</div></div></div></div></ul>
+<br>
+<hr>
+
+       <div class="clear">
+       <img src="pizza.jpeg"width="370px"height="270px">
+       <p>
+        Today this dish is one of the most popular foods on the entire Earth, but that fame and recognition came from the decades of work of many international pizza restaurant franchises which spread this dish to the all four corners of the world. Before these pizza chains were formed, this dish slowly rose in popularity in the United Stated, brought from the Europe by the Italian settlers which did not wanted to be parted from one of the most iconic meals of their country. And there, in the Mediterranean coastal city of Naples, the modern Pizza was created. Today this dish is one of the most popular foods on the entire Earth, but that fame and recognition came from the decades of work of many international pizza restaurant franchises which spread this dish to the all four corners of the world. Before these pizza chains were formed, this dish slowly rose in popularity in the United Stated, brought from the Europe by the Italian settlers which did not wanted to be parted from one of the most iconic meals of their country. And there, in the Mediterranean coastal city of Naples, the modern Pizza was created.<p>
+        <br>
+
+        <ul class="AE">
+        <img src="fast food.jpg"width="370px" height="270px">
+        <H1>McDonald</H1>
+        <hr>
+         <h2>Mc Special</h2>
+       <div class="dropdown">
+       	<button class="dropbtn">Mcdonald</button>
+       	<div class="dropdown-content">
+       		<a href="catering.html">Catering</a>
+       		<hr>
+       		<a href="#">Kids Zone</a>
+       		<hr>
+       		<a href="#">Family Pack</a>
+       		<hr>
+       		<a href="#">Restaurent coupon</a>
+       		<hr>
+       	</div>
+       </div>
+       <br>
+       <hr>
+        McDonald’s Menu $3 and Under
+The McDonald’s menu for February 2020 features several sandwiches and sides for $3 and under.  Here are the March 2020 specials on the McDonald’s menu.   No coupon is required and you can order at the counter or from the app.  Prices vary by location; typical prices are shown.
+<h1>MENU</h1>
+<h3><li>Lunch and Dinner Sandwiches and Meals under $3</li></h3>
+<br>
+$1 Cheeseburger<br>
+$1 Hamburger<br>
+$1.49 McChicken<br>
+$1.79 McDouble<br>
+$1.99 4 McNuggets; 6 for $2.79<br>
+$1.99 Ranch Snack Wrap<br>
+$2.29 Little Mac<br>
+$2.39 Double Cheeseburger<br>
+$2.49 Bacon Double<br>
+<hr>
+<h3><li>Breakfast: Biscuits, McMuffins and McGriddles under $3</li></h3>
+$1.29 Two McGriddles<br>
+$2.79 Sausage McGriddle<br>
+$2.79 Chicken McGriddle<br>
+$1.39 Sausage McMuffin<br>
+$1.39 Sausage Biscuit<br>
+$1.49 Sausage McGriddles<br>
+$1.79 McChicken Biscuit<br>
+$1.89 Bacon Cheese Biscuit<br>
+$1.99 Sausage Cheese Biscuit<br>
+$1.79 Chicken McGriddles<br>
+$2 Buttermilk Crispy Chicken Biscuit<br>
+$2.49 Egg Cheese Biscuit<br>
+$2.79 Sausage Gravy Biscuit<br>
+$2.99 Country Ham Biscuit<br>
+$2.99 Hotcakes.<br>
+       <HR>
+       <h1>
+       	<h1>COMBO DELIOUS ZONE <hr><br> Available Now</h1>
+       	<h1>
+       
+     
+ <a href="ooo.html">Indian Food Zone<hr><img src="banner.jpg" width="100%" height="100%"></a>
+ <hr>
+ <br>
+ <h2><a href="ooo.html">Cool Cool Zone<hr><img src="combo3.jpg" height="100%" width="100%"></a></h2>
+ <br>
+ <hr>
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <h2 style="text-align:center">Login with Social Media or Manually</h2>
+      <div class="vl">
+        <span class="vl-innertext">or</span>
+      </div>
+
+      <div class="col">
+        <a href="https://facebook.com" class="fb btn">
+          <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+         </a>
+        <a href="#" class="twitter btn">
+          <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+        </a>
+        <a href="#" class="google btn"><i class="fa fa-google fa-fw">
+          </i> Login with Google+
+        </a>
+      </div>
+
+      <div class="col">
+        <div class="hide-md-lg">
+          <p>Or sign in manually:</p>
+        </div>
+
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="submit" value="Login">
+      </div>
+      
+    </div>
+  </form>
+</div>
+
+<div class="bottom-container">
+  <div class="row">
+    <div class="col">
+      <a href="#" style="color:white" class="btn">Sign up</a>
+    </div>
+    <div class="col">
+      <a href="#" style="color:white" class="btn">Forgot password?</a>
+    </div>
+  </div>
+</div>
+<hr>
+<div class="end">
+
+        
+
+  
+       
+
+     
+     	
+     
+     		
+
+
+
+
+
+
+
+
+
+
+
+     	
+        	
+
+
+       
+                	
+
+</body>
+</html>
